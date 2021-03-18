@@ -1,0 +1,3 @@
+FROM ubuntu
+RUN app-get update
+RUN app-get install tree -y
